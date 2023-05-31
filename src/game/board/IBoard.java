@@ -10,4 +10,5 @@ public interface IBoard {
     public void setField(Vector2i cords, FieldType type, int color);
     public Vector2i getSize();
     public boolean isInArena(Vector2i cords);
+    public Vector2i getRandomEmptyField();
 }
